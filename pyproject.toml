@@ -5,7 +5,10 @@ description = "Simple hello wolrd service"
 authors = [
     {name = "Jan Kolomazník",email = "jan.kolomaznik@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.103.2",
+    "uvicorn[standard]>=0.23.2",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
